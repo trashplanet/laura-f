@@ -4,6 +4,12 @@ body {
 }
 a {
 	cursor: pointer;
+	color: #512da8;
+}
+a:hover {
+	cursor: pointer;
+	color: #512da8;
+	font-weight: 600;
 }
 h1 {
 	font-weight: 400;
@@ -80,9 +86,9 @@ section#header .button {
 
 /* hero */
 section#hero {
-	background-image:linear-gradient(61.8deg, #E91E63, #b0003a);
+	background-image:linear-gradient(61.8deg, #8559da, #512da8);
 	color: #fefefe;
-	padding-top: 77px;
+	padding: 77px;
 }
 section#hero .egg img {
 	height: 188px;
@@ -130,7 +136,7 @@ section#services .services-text {
 section#homepage-footer {
 	padding: 1rem;
 	color: #fefefe;
-	background-color: #E91E63;
+	background-color: #512da8;
 }
 /*add me on social section*/
 section#social div.social-icons {
